@@ -10,7 +10,7 @@ require (
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/gorilla/sessions v1.2.2
 	github.com/labstack/echo-contrib v0.15.0
-	github.com/labstack/echo/v4 v4.11.4
+	github.com/labstack/echo/v4 v4.12.0
 	github.com/leodido/go-urn v1.2.4 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
@@ -20,9 +20,9 @@ require (
 	github.com/swaggo/swag v1.16.3
 	github.com/valyala/fasttemplate v1.2.2
 	go.uber.org/zap v1.26.0
-	golang.org/x/crypto v0.21.0
-	golang.org/x/net v0.21.0 // indirect
-	golang.org/x/sys v0.18.0 // indirect
+	golang.org/x/crypto v0.22.0
+	golang.org/x/net v0.24.0 // indirect
+	golang.org/x/sys v0.19.0 // indirect
 	golang.org/x/tools v0.9.3 // indirect
 	gopkg.in/boj/redistore.v1 v1.0.0-20160128113310-fc113767cd6b
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
