@@ -14,7 +14,7 @@ pipeline {
       steps {
         script { // Étape de construction de l'image Docker
           sh 'docker  builder build --platform linux/arm64 -t ${ID_DOCKER}/$IMAGE_NAME:$IMAGE_TAG .' // Commande Docker pour construire l'image
-          sh 'docker builder build --platform linux/amd64 -t ${ID_DOCKER}/$IMAGE_NAME:${IMAGE_TAG}-AMD .' // Commande Docker pour construire l'image
+          sh 'docker builder build --platform linux/amd64/v8 -t ${ID_DOCKER}/$IMAGE_NAME:${IMAGE_TAG}-AMD .' // Commande Docker pour construire l'image
         }
       }
     }
